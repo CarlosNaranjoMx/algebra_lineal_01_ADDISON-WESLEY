@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  16 MAR 2026 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  17 MAR 2026 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,7 +265,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
-) (algebra_lineal.aux (problemas/capitulo_1_problema_1.aux))
+) (algebra_lineal.aux (problemas/capitulo_1_problema_1.aux)
+(problemas/capitulo_i_problema_ii.aux))
 \openout1 = `algebra_lineal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -287,8 +288,8 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 Package hyperref Info: Link coloring OFF on input line 8.
-
-(algebra_lineal.out) (algebra_lineal.out)
+ (algebra_lineal.out)
+(algebra_lineal.out)
 \@outlinefile=\write3
 \openout3 = `algebra_lineal.out'.
 
@@ -324,8 +325,16 @@ n/12 )$
 
 
 
-] (algebra_lineal.aux (problemas/capitulo_1_problema_1.aux)
-(problemas/capitulo_i_problema_ii.aux))
+]
+\openout2 = `problemas/capitulo_i_problema_iii.aux'.
+
+ (problemas/capitulo_i_problema_iii.tex [4
+
+
+
+]) [5] (algebra_lineal.aux
+(problemas/capitulo_1_problema_1.aux) (problemas/capitulo_i_problema_ii.aux)
+(problemas/capitulo_i_problema_iii.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -334,10 +343,10 @@ Package rerunfilecheck Info: File `algebra_lineal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8936 strings out of 467871
- 138602 string characters out of 5416924
- 565027 words of memory out of 5000000
- 37712 multiletter control sequences out of 15000+600000
+ 8973 strings out of 467871
+ 140069 string characters out of 5416924
+ 565686 words of memory out of 5000000
+ 37734 multiletter control sequences out of 15000+600000
  633616 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,20n,79p,553b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -350,10 +359,11 @@ KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/carlosmx/AppData/Local
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
 carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 <C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb>
-Output written on algebra_lineal.pdf (3 pages, 84142 bytes).
+/cmsy10.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb>
+Output written on algebra_lineal.pdf (5 pages, 102798 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
