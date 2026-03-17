@@ -1,0 +1,35 @@
+\section*{Capítulo I, Problema IX}
+
+\textbf{Problema:}
+
+9. Sean $A_1, \dots, A_r$ vectores no nulos que son mutuamente perpendiculares, en otras palabras $A_i \cdot A_j = 0$ si $i \neq j$. Sean $c_1, \dots, c_r$ números tales que:
+\[
+    c_1 A_1 + \cdots + c_r A_r = 0.
+\]
+Demuestra que todos los $c_i = 0$.
+
+\textbf{Solución:}
+
+Dado que los vectores $A_1, \dots, A_r$ son mutuamente perpendiculares, se cumple que $A_i \cdot A_j = 0$ para $i \neq j$. Supongamos que:
+\[
+    c_1 A_1 + c_2 A_2 + \cdots + c_r A_r = 0.
+\]
+
+Tomemos el producto escalar de ambos lados de la ecuación con $A_k$, donde $k \in \{1, \dots, r\}$:
+\[
+    \left(c_1 A_1 + c_2 A_2 + \cdots + c_r A_r\right) \cdot A_k = 0 \cdot A_k.
+\]
+
+Por la linealidad del producto escalar, esto se convierte en:
+\[
+    c_1 (A_1 \cdot A_k) + c_2 (A_2 \cdot A_k) + \cdots + c_r (A_r \cdot A_k) = 0.
+\]
+
+Dado que $A_i \cdot A_k = 0$ para $i \neq k$, todos los términos excepto $c_k (A_k \cdot A_k)$ se anulan. Por lo tanto:
+\[
+    c_k \|A_k\|^2 = 0.
+\]
+
+Como $A_k$ es un vector no nulo, $\|A_k\|^2 > 0$. Por lo tanto, $c_k = 0$.
+
+Dado que esto es válido para cualquier $k \in \{1, \dots, r\}$, concluimos que $c_1 = c_2 = \cdots = c_r = 0$. 
