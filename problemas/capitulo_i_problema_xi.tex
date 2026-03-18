@@ -13,17 +13,20 @@
 \begin{itemize}
     \item \textbf{Simetría:}
 
-    Por definición, $d(A, B) = \|B - A\|$. Usando la propiedad de la norma, sabemos que $\|B - A\| = \|A - B\|$. Por lo tanto, $d(A, B) = d(B, A)$.
+    Por definición, $d(A, B) = \|B - A\|$. Usando la propiedad de la norma, sabemos que $\|B - A\| = \|A - B\|$. Esto se debe a que la norma de un vector es invariante bajo el cambio de signo del vector. Por lo tanto, $d(A, B) = d(B, A)$.
 
     \item \textbf{Desigualdad triangular:}
 
-    Por la desigualdad triangular de la norma, se cumple que:
+    La desigualdad triangular establece que para cualquier par de vectores $X$ y $Y$, se cumple que:
     \[
-        \|A - C\| + \|C - B\| \geq \|A - B\|.
+        \|X + Y\| \leq \|X\| + \|Y\|.
     \]
-    Esto implica que:
-    \[
-        d(A, C) + d(B, C) \geq d(A, B).
-    \]
+    En este caso, consideramos los vectores $X = A - C$ y $Y = C - B$. Entonces:
+    \begin{align*}
+        \|A - C + C - B\| &\leq \|A - C\| + \|C - B\| \\
+        \|A - B\| &\leq \|A - C\| + \|C - B\|.
+    \end{align*}
     Por lo tanto, $d(A, B) \leq d(A, C) + d(B, C)$.
 \end{itemize}
+
+En resumen, hemos demostrado que la distancia definida como $d(A, B) = \|B - A\|$ cumple con las propiedades de simetría y la desigualdad triangular, lo que la convierte en una métrica válida en el espacio $n$-dimensional.
