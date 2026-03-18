@@ -1,0 +1,29 @@
+\section*{Capítulo I, Problema XI}
+
+\textbf{Problema:}
+
+11. Si $A, B$ son dos vectores en el espacio $n$-dimensional, denota por $d(A, B)$ la distancia entre $A$ y $B$, es decir, $d(A, B) = \|B - A\|$. Demuestra que:
+\begin{itemize}
+    \item $d(A, B) = d(B, A)$,
+    \item $d(A, B) \leq d(A, C) + d(B, C)$ para cualesquiera tres vectores $A, B, C$.
+\end{itemize}
+
+\textbf{Solución:}
+
+\begin{itemize}
+    \item \textbf{Simetría:}
+
+    Por definición, $d(A, B) = \|B - A\|$. Usando la propiedad de la norma, sabemos que $\|B - A\| = \|A - B\|$. Por lo tanto, $d(A, B) = d(B, A)$.
+
+    \item \textbf{Desigualdad triangular:}
+
+    Por la desigualdad triangular de la norma, se cumple que:
+    \[
+        \|A - C\| + \|C - B\| \geq \|A - B\|.
+    \]
+    Esto implica que:
+    \[
+        d(A, C) + d(B, C) \geq d(A, B).
+    \]
+    Por lo tanto, $d(A, B) \leq d(A, C) + d(B, C)$.
+\end{itemize}

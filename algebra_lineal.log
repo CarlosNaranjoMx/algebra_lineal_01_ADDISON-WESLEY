@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  17 MAR 2026 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  17 MAR 2026 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -268,7 +268,8 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (algebra_lineal.aux (problemas/capitulo_1_problema_1.aux)
 (problemas/capitulo_i_problema_ii.aux) (problemas/capitulo_i_problema_iii.aux)
 (problemas/capitulo_i_problema_vii.aux) (problemas/capitulo_i_problema_viii.aux
-) (problemas/capitulo_i_teorema_ii.aux) (problemas/capitulo_i_problema_ix.aux))
+) (problemas/capitulo_i_teorema_ii.aux) (problemas/capitulo_i_problema_ix.aux)
+(problemas/capitulo_i_problema_vi.aux))
 \openout1 = `algebra_lineal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -290,7 +291,8 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 Package hyperref Info: Link coloring OFF on input line 8.
-(algebra_lineal.out) (algebra_lineal.out)
+ (algebra_lineal.out)
+(algebra_lineal.out)
 \@outlinefile=\write3
 \openout3 = `algebra_lineal.out'.
 
@@ -401,11 +403,25 @@ Overfull \hbox (114.81151pt too wide) detected at line 44
 
 
 
-]) [12] (algebra_lineal.aux (problemas/capitulo_1_problema_1.aux)
+]) [12]
+\openout2 = `problemas/capitulo_i_problema_x.aux'.
+
+ (problemas/capitulo_i_problema_x.tex
+Overfull \hbox (17.93143pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/12 plica que $\OML/cmm/m/it/12 A$ \OT1/cmr/m/n/12 y $\OML/cmm/m/it
+/12 B$ \OT1/cmr/m/n/12 est^^San alin-ea-dos en di-rec-ciones op-ues-tas. Matem^
+^Saticamente,
+ []
+
+) [13
+
+
+
+] [14] (algebra_lineal.aux (problemas/capitulo_1_problema_1.aux)
 (problemas/capitulo_i_problema_ii.aux) (problemas/capitulo_i_problema_iii.aux)
 (problemas/capitulo_i_problema_vii.aux) (problemas/capitulo_i_problema_viii.aux
 ) (problemas/capitulo_i_teorema_ii.aux) (problemas/capitulo_i_problema_ix.aux)
-(problemas/capitulo_i_problema_vi.aux))
+(problemas/capitulo_i_problema_vi.aux) (problemas/capitulo_i_problema_x.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -414,10 +430,10 @@ Package rerunfilecheck Info: File `algebra_lineal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9106 strings out of 467871
- 147230 string characters out of 5416924
- 567340 words of memory out of 5000000
- 37825 multiletter control sequences out of 15000+600000
+ 9134 strings out of 467871
+ 148643 string characters out of 5416924
+ 567671 words of memory out of 5000000
+ 37843 multiletter control sequences out of 15000+600000
  633616 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,20n,79p,553b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -428,14 +444,15 @@ ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/carlosmx/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/carlosmx/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/carlosmx/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
-carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
 <C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on algebra_lineal.pdf (12 pages, 126265 bytes).
+/cmr8.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on algebra_lineal.pdf (14 pages, 139907 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
