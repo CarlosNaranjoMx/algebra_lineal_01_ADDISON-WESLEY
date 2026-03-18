@@ -1,0 +1,30 @@
+\section*{Capítulo I, Problema XIV}
+
+\textbf{Problema:}
+
+14. Demuestra que si $\theta$ es el ángulo entre $A$ y $B$, entonces:
+\[
+    \|A - B\|^2 = \|A\|^2 + \|B\|^2 - 2\|A\|\|B\| \cos \theta.
+\]
+
+\textbf{Solución:}
+
+Por definición de norma, tenemos:
+\begin{align*}
+    \|A - B\|^2 &= (A - B) \cdot (A - B) \\
+    &= A \cdot A - 2(A \cdot B) + B \cdot B \\
+    &= \|A\|^2 - 2(A \cdot B) + \|B\|^2.
+\end{align*}
+
+Sabemos que el producto escalar $A \cdot B$ se puede expresar en términos de las normas de $A$ y $B$ y el coseno del ángulo entre ellos:
+\[
+    A \cdot B = \|A\|\|B\| \cos \theta.
+\]
+
+Sustituyendo esta expresión en la ecuación anterior:
+\begin{align*}
+    \|A - B\|^2 &= \|A\|^2 - 2(\|A\|\|B\| \cos \theta) + \|B\|^2 \\
+    &= \|A\|^2 + \|B\|^2 - 2\|A\|\|B\| \cos \theta.
+\end{align*}
+
+Por lo tanto, se cumple la relación dada.
