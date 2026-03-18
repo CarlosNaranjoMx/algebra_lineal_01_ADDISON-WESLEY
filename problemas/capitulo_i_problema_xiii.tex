@@ -1,0 +1,52 @@
+\section*{Capítulo I, Problema XIII}
+
+\textbf{Problema:}
+
+13. Determina el coseno de los ángulos del triángulo cuyos vértices son:
+\begin{itemize}
+    \item (a) $(2, -1, 1)$, $(1, -3, -5)$, $(3, -4, -4)$.
+    \item (b) $(3, 1, 1)$, $(-1, 2, 1)$, $(2, -2, 5)$.
+\end{itemize}
+
+\textbf{Solución:}
+
+Para determinar el coseno de los ángulos de un triángulo, utilizamos la fórmula del coseno entre dos vectores $A$ y $B$:
+\[
+    \cos \theta = \frac{A \cdot B}{\|A\| \|B\|}.
+\]
+
+\begin{itemize}
+    \item \textbf{(a):}
+
+    Sean los vértices $P = (2, -1, 1)$, $Q = (1, -3, -5)$ y $R = (3, -4, -4)$. Calculamos los vectores correspondientes a los lados del triángulo:
+    \begin{align*}
+        \overrightarrow{PQ} &= Q - P = (1 - 2, -3 - (-1), -5 - 1) = (-1, -2, -6), \\
+        \overrightarrow{PR} &= R - P = (3 - 2, -4 - (-1), -4 - 1) = (1, -3, -5), \\
+        \overrightarrow{QR} &= R - Q = (3 - 1, -4 - (-3), -4 - (-5)) = (2, -1, 1).
+    \end{align*}
+
+    Calculamos las normas de los vectores:
+    \begin{align*}
+        \|\overrightarrow{PQ}\| &= \sqrt{(-1)^2 + (-2)^2 + (-6)^2} = \sqrt{1 + 4 + 36} = \sqrt{41}, \\
+        \|\overrightarrow{PR}\| &= \sqrt{1^2 + (-3)^2 + (-5)^2} = \sqrt{1 + 9 + 25} = \sqrt{35}, \\
+        \|\overrightarrow{QR}\| &= \sqrt{2^2 + (-1)^2 + 1^2} = \sqrt{4 + 1 + 1} = \sqrt{6}.
+    \end{align*}
+
+    Ahora calculamos los productos escalares:
+    \begin{align*}
+        \overrightarrow{PQ} \cdot \overrightarrow{PR} &= (-1)(1) + (-2)(-3) + (-6)(-5) = -1 + 6 + 30 = 35, \\
+        \overrightarrow{PQ} \cdot \overrightarrow{QR} &= (-1)(2) + (-2)(-1) + (-6)(1) = -2 + 2 - 6 = -6, \\
+        \overrightarrow{PR} \cdot \overrightarrow{QR} &= (1)(2) + (-3)(-1) + (-5)(1) = 2 + 3 - 5 = 0.
+    \end{align*}
+
+    Finalmente, calculamos los cosenos de los ángulos:
+    \begin{align*}
+        \cos \angle PQR &= \frac{\overrightarrow{PQ} \cdot \overrightarrow{PR}}{\|\overrightarrow{PQ}\| \|\overrightarrow{PR}\|} = \frac{35}{\sqrt{41} \sqrt{35}}, \\
+        \cos \angle QRP &= \frac{\overrightarrow{PQ} \cdot \overrightarrow{QR}}{\|\overrightarrow{PQ}\| \|\overrightarrow{QR}\|} = \frac{-6}{\sqrt{41} \sqrt{6}}, \\
+        \cos \angle PRQ &= \frac{\overrightarrow{PR} \cdot \overrightarrow{QR}}{\|\overrightarrow{PR}\| \|\overrightarrow{QR}\|} = \frac{0}{\sqrt{35} \sqrt{6}} = 0.
+    \end{align*}
+
+    \item \textbf{(b):}
+
+    Similar al caso (a), calculamos los vectores, normas y productos escalares para los vértices $(3, 1, 1)$, $(-1, 2, 1)$ y $(2, -2, 5)$. El procedimiento es análogo.
+\end{itemize}
