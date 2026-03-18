@@ -1,0 +1,41 @@
+\section*{Capítulo I, Problema XVII}
+
+\textbf{Problema:}
+
+17. Sean $A, B$ vectores no nulos. Supón que $\|A + cB\| \geq \|A\|$ para todos los números $c$. Demuestra que $A$ y $B$ son perpendiculares.
+
+\textbf{Solución:}
+
+Dado que $\|A + cB\| \geq \|A\|$ para todos los números $c$, elevamos ambos lados al cuadrado:
+\begin{align*}
+    \|A + cB\|^2 &\geq \|A\|^2.
+\end{align*}
+
+Sabemos que:
+\begin{align*}
+    \|A + cB\|^2 &= (A + cB) \cdot (A + cB) \\
+    &= A \cdot A + 2c(A \cdot B) + c^2(B \cdot B) \\
+    &= \|A\|^2 + 2c(A \cdot B) + c^2\|B\|^2.
+\end{align*}
+
+Sustituyendo en la desigualdad:
+\begin{align*}
+    \|A\|^2 + 2c(A \cdot B) + c^2\|B\|^2 &\geq \|A\|^2.
+\end{align*}
+
+Cancelamos $\|A\|^2$ en ambos lados:
+\begin{align*}
+    2c(A \cdot B) + c^2\|B\|^2 &\geq 0.
+\end{align*}
+
+Factorizamos $c$:
+\begin{align*}
+    c\left(2(A \cdot B) + c\|B\|^2\right) &\geq 0.
+\end{align*}
+
+Para que esta desigualdad se cumpla para cualquier valor de $c$, el término $2(A \cdot B)$ debe ser igual a $0$. Esto implica que:
+\[
+    A \cdot B = 0.
+\]
+
+Por lo tanto, $A$ y $B$ son perpendiculares.
