@@ -1,0 +1,39 @@
+\section*{Capítulo I, Problema XVIII}
+
+\textbf{Problema:}
+
+18. Sean $B_1, \dots, B_m$ vectores de norma $1$ en el espacio $n$-dimensional, y mutuamente perpendiculares, es decir, $B_i \cdot B_j = 0$ si $i \neq j$. Sea $A$ un vector en el espacio $n$-dimensional, y sea $c_i$ la componente de $A$ a lo largo de $B_i$. Sean $x_1, \dots, x_m$ números. Demuestra que:
+\[
+    \|A - (c_1B_1 + \cdots + c_mB_m)\| \leq \|A - (x_1B_1 + \cdots + x_mB_m)\|.
+\]
+
+\textbf{Solución:}
+
+Dado que $B_1, \dots, B_m$ son vectores ortogonales de norma $1$, podemos escribir $A$ como:
+\[
+    A = c_1B_1 + c_2B_2 + \cdots + c_mB_m + R,
+\]
+donde $R$ es el residuo ortogonal a todos los $B_i$, es decir, $R \cdot B_i = 0$ para todo $i$.
+
+Sea $x = x_1B_1 + x_2B_2 + \cdots + x_mB_m$. Entonces:
+\begin{align*}
+    \|A - x\|^2 &= \|(c_1B_1 + \cdots + c_mB_m + R) - (x_1B_1 + \cdots + x_mB_m)\|^2 \\
+    &= \|(c_1 - x_1)B_1 + \cdots + (c_m - x_m)B_m + R\|^2.
+\end{align*}
+
+Expandiendo la norma:
+\begin{align*}
+    \|A - x\|^2 &= \sum_{i=1}^m (c_i - x_i)^2 \|B_i\|^2 + \|R\|^2.
+\end{align*}
+
+Dado que $\|B_i\| = 1$ para todo $i$, esto se simplifica a:
+\begin{align*}
+    \|A - x\|^2 &= \sum_{i=1}^m (c_i - x_i)^2 + \|R\|^2.
+\end{align*}
+
+Para minimizar $\|A - x\|^2$, debemos minimizar $\sum_{i=1}^m (c_i - x_i)^2$. Esto ocurre cuando $x_i = c_i$ para todo $i$. En este caso, $\|A - x\|^2$ toma su valor mínimo, que es $\|R\|^2$. Por lo tanto:
+\[
+    \|A - (c_1B_1 + \cdots + c_mB_m)\| \leq \|A - (x_1B_1 + \cdots + x_mB_m)\|.
+\]
+
+Esto demuestra la desigualdad dada.
