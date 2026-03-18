@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  17 MAR 2026 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  17 MAR 2026 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -269,7 +269,8 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 (problemas/capitulo_i_problema_ii.aux) (problemas/capitulo_i_problema_iii.aux)
 (problemas/capitulo_i_problema_vii.aux) (problemas/capitulo_i_problema_viii.aux
 ) (problemas/capitulo_i_teorema_ii.aux) (problemas/capitulo_i_problema_ix.aux)
-(problemas/capitulo_i_problema_vi.aux) (problemas/capitulo_i_problema_x.aux))
+(problemas/capitulo_i_problema_vi.aux) (problemas/capitulo_i_problema_x.aux)
+(problemas/capitulo_i_problema_xi.aux))
 \openout1 = `algebra_lineal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -291,8 +292,8 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 Package hyperref Info: Link coloring OFF on input line 8.
-
-(algebra_lineal.out) (algebra_lineal.out)
+ (algebra_lineal.out)
+(algebra_lineal.out)
 \@outlinefile=\write3
 \openout3 = `algebra_lineal.out'.
 
@@ -438,10 +439,10 @@ Package rerunfilecheck Info: File `algebra_lineal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9161 strings out of 467871
- 150069 string characters out of 5416924
- 568002 words of memory out of 5000000
- 37861 multiletter control sequences out of 15000+600000
+ 9164 strings out of 467871
+ 150261 string characters out of 5416924
+ 568333 words of memory out of 5000000
+ 37862 multiletter control sequences out of 15000+600000
  633616 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,20n,79p,553b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -458,7 +459,7 @@ carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
 msfonts/cm/cmsy10.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on algebra_lineal.pdf (15 pages, 142161 bytes).
+Output written on algebra_lineal.pdf (15 pages, 143049 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
