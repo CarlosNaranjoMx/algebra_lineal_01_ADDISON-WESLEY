@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  18 MAR 2026 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  20 MAR 2026 01:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,7 +274,9 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 (problemas/capitulo_i_problema_xiii.aux) (problemas/capitulo_i_problema_xiv.aux
 ) (problemas/capitulo_i_problema_xv.aux) (problemas/capitulo_i_problema_xvi.aux
 ) (problemas/capitulo_i_problema_xvii.aux)
-(problemas/capitulo_i_problema_xviii.aux))
+(problemas/capitulo_i_problema_xviii.aux) (problemas/capitulo_i_problema_xx.aux
+) (problemas/capitulo_i_problema_xxi.aux)
+(problemas/capitulo_i_problema_xxii.aux))
 \openout1 = `algebra_lineal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -495,25 +497,87 @@ Overfull \hbox (51.63663pt too wide) detected at line 50
 
 
 ]
-\openout2 = `problemas/capitulo_i_problema_xix.aux'.
+\openout2 = `problemas/capitulo_i_problema_xx.aux'.
 
 
-(problemas/capitulo_i_problema_xix.tex) [25
+(problemas/capitulo_i_problema_xx.tex [25
 
 
 
-] (algebra_lineal.aux
-(problemas/capitulo_1_problema_1.aux) (problemas/capitulo_i_problema_ii.aux)
-(problemas/capitulo_i_problema_iii.aux) (problemas/capitulo_i_problema_vii.aux)
-(problemas/capitulo_i_problema_viii.aux) (problemas/capitulo_i_teorema_ii.aux)
-(problemas/capitulo_i_problema_ix.aux) (problemas/capitulo_i_problema_vi.aux)
-(problemas/capitulo_i_problema_x.aux) (problemas/capitulo_i_problema_xi.aux)
-(problemas/capitulo_i_problema_xii.aux) (problemas/capitulo_i_problema_xiii.aux
-) (problemas/capitulo_i_problema_xiv.aux) (problemas/capitulo_i_problema_xv.aux
-) (problemas/capitulo_i_problema_xvi.aux)
-(problemas/capitulo_i_problema_xvii.aux)
-(problemas/capitulo_i_problema_xviii.aux)
-(problemas/capitulo_i_problema_xix.aux))
+]) [26]
+\openout2 = `problemas/capitulo_i_problema_xxi.aux'.
+
+
+(problemas/capitulo_i_problema_xxi.tex) [27
+
+
+
+]
+\openout2 = `problemas/capitulo_i_problema_xxii.aux'.
+
+
+(problemas/capitulo_i_problema_xxii.tex) [28
+
+
+
+]
+\openout2 = `problemas/capitulo_ii/capitulo_ii_problema_vi.aux'.
+
+
+(problemas/capitulo_ii/capitulo_ii_problema_vi.tex [29
+
+
+
+]) [30]
+\openout2 = `problemas/capitulo_ii/capitulo_ii_problema_vii.aux'.
+
+
+(problemas/capitulo_ii/capitulo_ii_problema_vii.tex) [31
+
+
+
+]
+\openout2 = `problemas/capitulo_ii/capitulo_ii_problema_viii.aux'.
+
+
+(problemas/capitulo_ii/capitulo_ii_problema_viii.tex [32
+
+
+
+]) [33]
+\openout2 = `problemas/capitulo_ii/capitulo_ii_problema_ix.aux'.
+
+
+(problemas/capitulo_ii/capitulo_ii_problema_ix.tex) [34
+
+
+
+]
+\openout2 = `problemas/capitulo_ii/capitulo_ii_problema_x.aux'.
+
+
+(problemas/capitulo_ii/capitulo_ii_problema_x.tex [35
+
+
+
+]) [36]
+(algebra_lineal.aux (problemas/capitulo_1_problema_1.aux)
+(problemas/capitulo_i_problema_ii.aux) (problemas/capitulo_i_problema_iii.aux)
+(problemas/capitulo_i_problema_vii.aux) (problemas/capitulo_i_problema_viii.aux
+) (problemas/capitulo_i_teorema_ii.aux) (problemas/capitulo_i_problema_ix.aux)
+(problemas/capitulo_i_problema_vi.aux) (problemas/capitulo_i_problema_x.aux)
+(problemas/capitulo_i_problema_xi.aux) (problemas/capitulo_i_problema_xii.aux)
+(problemas/capitulo_i_problema_xiii.aux) (problemas/capitulo_i_problema_xiv.aux
+) (problemas/capitulo_i_problema_xv.aux) (problemas/capitulo_i_problema_xvi.aux
+) (problemas/capitulo_i_problema_xvii.aux)
+(problemas/capitulo_i_problema_xviii.aux) (problemas/capitulo_i_problema_xx.aux
+) (problemas/capitulo_i_problema_xxi.aux)
+(problemas/capitulo_i_problema_xxii.aux)
+(problemas/capitulo_ii/capitulo_ii_problema_vi.aux)
+(problemas/capitulo_ii/capitulo_ii_problema_vii.aux)
+(problemas/capitulo_ii/capitulo_ii_problema_viii.aux)
+(problemas/capitulo_ii/capitulo_ii_problema_ix.aux)
+(problemas/capitulo_ii/capitulo_ii_problema_x.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -522,10 +586,10 @@ Package rerunfilecheck Info: File `algebra_lineal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9386 strings out of 467871
- 161836 string characters out of 5416924
- 570650 words of memory out of 5000000
- 38005 multiletter control sequences out of 15000+600000
+ 9564 strings out of 467871
+ 172704 string characters out of 5416924
+ 571643 words of memory out of 5000000
+ 38129 multiletter control sequences out of 15000+600000
  633616 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,21n,79p,553b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -543,9 +607,9 @@ msfonts/cm/cmsy10.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/carlosmx/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on algebra_lineal.pdf (25 pages, 173025 bytes).
+Output written on algebra_lineal.pdf (36 pages, 193643 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

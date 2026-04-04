@@ -1,0 +1,63 @@
+\section*{Capítulo II, Problema X}
+
+\textbf{Problema:}
+
+10. Sea $P = (1,2,3,4)$ y $Q = (4,3,2,1)$. Sea $A = (1,1,1,1)$. Sea $L$ la recta que pasa por $P$ y es paralela a $A$.
+
+\begin{itemize}
+    \item[(a)] Dado un punto $X$ en la recta $L$, calcula la distancia entre $Q$ y $X$ como función del parámetro $t$.
+    \item[(b)] Demuestra que existe precisamente un punto $X_0$ en la recta para el cual esta distancia alcanza un mínimo, y que este mínimo es $2\sqrt{5}$.
+    \item[(c)] Demuestra que $X_0 - Q$ es perpendicular a la recta.
+\end{itemize}
+
+\textbf{Solución:}
+
+La recta $L$ que pasa por $P$ y es paralela a $A$ puede escribirse como
+\[
+    X(t) = P + tA = (1+t, 2+t, 3+t, 4+t).
+\]
+
+\begin{itemize}
+    \item[(a)] La distancia entre $Q$ y $X(t)$ es
+    \[
+        d(t) = \|X(t) - Q\|.
+    \]
+    Como
+    \[
+        X(t) - Q = (t-3, t-1, t+1, t+3),
+    \]
+    se tiene
+    \begin{align*}
+        d(t)^2 &= (t-3)^2 + (t-1)^2 + (t+1)^2 + (t+3)^2 \\
+               &= 4t^2 + 20.
+    \end{align*}
+    Por tanto,
+    \[
+        d(t) = \sqrt{4t^2 + 20} = 2\sqrt{t^2 + 5}.
+    \]
+
+    \item[(b)] Como $d(t) = 2\sqrt{t^2+5}$, la distancia es mínima exactamente cuando $t^2$ es mínima. Esto ocurre únicamente en $t=0$.
+
+    Luego el único punto de mínima distancia es
+    \[
+        X_0 = X(0) = P = (1,2,3,4).
+    \]
+    La distancia mínima vale
+    \[
+        d(0) = 2\sqrt{5}.
+    \]
+
+    \item[(c)] La dirección de la recta es el vector
+    \[
+        A = (1,1,1,1).
+    \]
+    Además,
+    \[
+        X_0 - Q = (1,2,3,4) - (4,3,2,1) = (-3,-1,1,3).
+    \]
+    Calculamos su producto punto con el vector dirección de la recta:
+    \[
+        (-3,-1,1,3) \cdot (1,1,1,1) = -3 - 1 + 1 + 3 = 0.
+    \]
+    Por lo tanto, $X_0 - Q$ es perpendicular a la recta $L$.
+\end{itemize}

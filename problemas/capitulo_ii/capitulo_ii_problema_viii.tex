@@ -1,0 +1,80 @@
+\section*{Capítulo II, Problema VIII}
+
+\textbf{Problema:}
+
+8. Encuentra la ecuación del plano que pasa por los siguientes tres puntos.
+
+\begin{itemize}
+    \item[(a)] $(2,1,1)$, $(3,-1,1)$, $(4,1,-1)$
+    \item[(b)] $(-2,3,-1)$, $(2,2,3)$, $(-4,-1,1)$
+    \item[(c)] $(-5,-1,2)$, $(1,2,-1)$, $(3,-1,2)$
+\end{itemize}
+
+\textbf{Solución:}
+
+Si $A$, $B$ y $C$ son tres puntos del plano, entonces dos vectores contenidos en él son $\overrightarrow{AB}$ y $\overrightarrow{AC}$. Un vector normal se obtiene con el producto cruz $\overrightarrow{AB} \times \overrightarrow{AC}$.
+
+\begin{itemize}
+    \item[(a)] Tomemos
+    \[
+        A=(2,1,1), \quad B=(3,-1,1), \quad C=(4,1,-1).
+    \]
+    Entonces
+    \[
+        \overrightarrow{AB} = (1,-2,0), \qquad \overrightarrow{AC} = (2,0,-2).
+    \]
+    Un vector normal es
+    \[
+        \overrightarrow{AB} \times \overrightarrow{AC} = (4,2,4) = 2(2,1,2).
+    \]
+    Podemos usar $N=(2,1,2)$. La ecuación del plano es
+    \[
+        2(x-2) + (y-1) + 2(z-1) = 0,
+    \]
+    es decir,
+    \[
+        2x + y + 2z - 7 = 0.
+    \]
+
+    \item[(b)] Tomemos
+    \[
+        A=(-2,3,-1), \quad B=(2,2,3), \quad C=(-4,-1,1).
+    \]
+    Entonces
+    \[
+        \overrightarrow{AB} = (4,-1,4), \qquad \overrightarrow{AC} = (-2,-4,2).
+    \]
+    Un vector normal es
+    \[
+        \overrightarrow{AB} \times \overrightarrow{AC} = (14,-16,-18) = 2(7,-8,-9).
+    \]
+    Usando $N=(7,-8,-9)$, obtenemos
+    \[
+        7(x+2) - 8(y-3) - 9(z+1) = 0,
+    \]
+    o equivalentemente,
+    \[
+        7x - 8y - 9z + 29 = 0.
+    \]
+
+    \item[(c)] Tomemos
+    \[
+        A=(-5,-1,2), \quad B=(1,2,-1), \quad C=(3,-1,2).
+    \]
+    Entonces
+    \[
+        \overrightarrow{AB} = (6,3,-3), \qquad \overrightarrow{AC} = (8,0,0).
+    \]
+    Un vector normal es
+    \[
+        \overrightarrow{AB} \times \overrightarrow{AC} = (0,-24,-24).
+    \]
+    Podemos tomar $N=(0,1,1)$. Así, la ecuación del plano es
+    \[
+        (y+1) + (z-2) = 0,
+    \]
+    esto es,
+    \[
+        y + z - 1 = 0.
+    \]
+\end{itemize}
