@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  2 MAR 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  3 MAR 2026 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,19 +883,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 (C:\Users\carlosmx\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(calculo.toc)
+(calculo.toc [1
+
+{C:/Users/carlosmx/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `calculo.toc'.
 
- [1
-
-{C:/Users/carlosmx/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3] (
-spivak_capitulo_5_problema_14.tex
+ [2] [3] [4] (spivak_capitulo_5_problema_14.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
@@ -915,12 +914,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-) [5]
+) [6]
 \openout2 = `spivak_problema_1.aux'.
 
- (spivak_problema_1.tex [6
+ (spivak_problema_1.tex [7
 
-]) [7]
+]) [8]
 \openout2 = `spivak_problema_20.aux'.
 
  (spivak_problema_20.tex
@@ -950,7 +949,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8
+[9
 
 
 
@@ -981,7 +980,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [9]
+) [10]
 \openout2 = `spivak_problema_21.aux'.
 
  (spivak_problema_21.tex
@@ -1001,11 +1000,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5.
 
-[10
+[11
 
 
 
-]) [11]
+]) [12]
 \openout2 = `spivak_problema_22.aux'.
 
  (spivak_problema_22.tex
@@ -1066,11 +1065,11 @@ l.53 ...ac{|y_0|}{2} > 0$, así que $y \neq 0$ ✓
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[12
+[13
 
 
 
-] [13]
+] [14]
 
 ! LaTeX Error: Environment ejemplo undefined.
 
@@ -1136,7 +1135,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [14]
+) [15]
 \openout2 = `spivak_problema_23.aux'.
 
  (spivak_problema_23.tex
@@ -1188,11 +1187,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5.
 
-[15
+[16
 
 
 
-] [16]
+] [17]
 Overfull \hbox (36.44041pt too wide) in paragraph at lines 146--147
 []\T1/cmr/m/n/12 Sin em-bargo, para $\OML/cmm/m/it/12 y$\T1/cmr/m/n/12 , la con
 di-ci�n en el Prob-lema 22 (rec�p-roca) es $\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
@@ -1200,7 +1199,7 @@ y \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 y[]\OMS/cmsy/m/n/12 j \OML/cmm/m/it/12
 < [] []$\T1/cmr/m/n/12 ,
  []
 
-[17]
+[18]
 
 ! LaTeX Error: Environment ejemplo undefined.
 
@@ -1214,7 +1213,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18]
+[19]
 
 ! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
@@ -1280,7 +1279,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [19]
+) [20]
 \openout2 = `spivak_problema_24.aux'.
 
  (spivak_problema_24.tex
@@ -1297,7 +1296,7 @@ l.65 ...a afirmación es verdadera para $k+1$. ✓
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[20
+[21
 
 
 
@@ -1309,7 +1308,7 @@ a[]\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 y $\OML/cmm/m/it/12 s[]\OT1/cmr/m/n/12 (\O
 ML/cmm/m/it/12 a[]; [] ; a[]\OT1/cmr/m/n/12 )$
  []
 
-[21]
+[22]
 
 ! LaTeX Error: Unicode character ✓ (U+2713)
                not set up for use with LaTeX.
@@ -1362,14 +1361,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22]) [23]
+[23]) [24]
 \openout2 = `spivak_capitulo_2_problema_4.aux'.
 
- (spivak_capitulo_2_problema_4.tex [24
+ (spivak_capitulo_2_problema_4.tex [25
 
 
 
-]) [25]
+]) [26]
 \openout2 = `spivak_capitulo_3_problema_10.aux'.
 
 
@@ -1387,11 +1386,11 @@ l.7 \item �
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[26
+[27
 
 
 
-]) [27]
+]) [28]
 \openout2 = `spivak_capitulo_3_problema_13.aux'.
 
  (spivak_capitulo_3_problema_13.tex
@@ -1408,14 +1407,14 @@ l.6 \item D
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [28
+) [29
 
 
 
-] [29]
+] [30]
 \openout2 = `spivak_capitulo_3_problema_14.aux'.
 
- (spivak_capitulo_3_problema_14.tex) [30
+ (spivak_capitulo_3_problema_14.tex) [31
 
 
 
@@ -1438,26 +1437,26 @@ l.35 $$f(x)=f\!^^H
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[31
+[32
 
 
 
-]) [32]
+]) [33]
 \openout2 = `spivak_capitulo_3_problema_17.aux'.
 
- (spivak_capitulo_3_problema_17.tex) [33
+ (spivak_capitulo_3_problema_17.tex) [34
 
 
 
-] [34]
+] [35]
 \openout2 = `spivak_capitulo_3_problema_18.aux'.
 
 
-(spivak_capitulo_3_problema_18.tex [35
+(spivak_capitulo_3_problema_18.tex [36
 
 
 
-]) [36]
+]) [37]
 \openout2 = `spivak_capitulo_3_problema_19.aux'.
 
 
@@ -1487,7 +1486,7 @@ l.43 ...)$ sea infinita, lo cual no ocurre en $^^H
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[37
+[38
 
 
 
@@ -1506,7 +1505,7 @@ l.63 el producto $xy$ recorre todo $^^H
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-) [38]
+) [39]
 \openout2 = `spivak_capitulo_3_problema_20.aux'.
 
  (spivak_capitulo_3_problema_20.tex
@@ -1523,18 +1522,18 @@ l.36 ...\le (y-x)^2\qquad\text{para todo }x,y.\tag
 you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
-[39
+[40
 
 
 
-]) [40]
+]) [41]
 \openout2 = `spivak_capitulo_2_problema_6.aux'.
 
- (spivak_capitulo_2_problema_6.tex [41
+ (spivak_capitulo_2_problema_6.tex [42
 
 
 
-] [42] [43]) [44]
+] [43] [44]) [45]
 \openout2 = `spivak_capitulo_4_problema_5.aux'.
 
 
@@ -1551,11 +1550,11 @@ l.11 \item $
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[45
+[46
 
 
 
-]) [46]
+]) [47]
 \openout2 = `spivak_capitulo_2_problema_7.aux'.
 
  (spivak_capitulo_2_problema_7.tex
@@ -1587,11 +1586,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5.
 
-[47
+[48
 
 
 
-] [48]) [49] (spivak_capitulo_5_problema_3.tex [50
+] [49]) [50] (spivak_capitulo_5_problema_3.tex [51
 
 
 ]
@@ -1610,7 +1609,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [51] (spivak_capitulo_5_problema_6.tex [52] [53] [54]) [55]
+) [52] (spivak_capitulo_5_problema_6.tex [53] [54] [55]) [56]
 (spivak_capitulo_5_problema_14.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -1636,8 +1635,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[56]) [57] (spivak_capitulo_5_problema_15.tex [58]) [59]
-(spivak_capitulo_5_problema_20.tex) [60] (spivak_capitulo_5_problema_22.tex
+[57]) [58] (spivak_capitulo_5_problema_15.tex [59]) [60]
+(spivak_capitulo_5_problema_20.tex) [61] (spivak_capitulo_5_problema_22.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -1652,7 +1651,227 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-) [61] (calculo.aux (spivak_problema_1.aux) (spivak_problema_20.aux)
+) [62] (spivak_capitulo_6_problema_1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+) [63] (spivak_capitulo_6_problema_3-11.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+) [66] (spivak_capitulo_6_problema_10-14.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+) [68] (calculo.aux (spivak_problema_1.aux) (spivak_problema_20.aux)
 (spivak_problema_21.aux) (spivak_problema_22.aux) (spivak_problema_23.aux)
 (spivak_problema_24.aux) (spivak_capitulo_2_problema_4.aux)
 (spivak_capitulo_3_problema_10.aux) (spivak_capitulo_3_problema_13.aux)
@@ -1669,10 +1888,10 @@ Package rerunfilecheck Info: File `calculo.out' has not changed.
 (rerunfilecheck)             Checksum: 49528D8A4FE60C5BE4A2A7930514D8FA;8344.
  ) 
 Here is how much of TeX's memory you used:
- 32528 strings out of 467871
- 776577 string characters out of 5416924
- 1311329 words of memory out of 5000000
- 60504 multiletter control sequences out of 15000+600000
+ 32557 strings out of 467871
+ 777630 string characters out of 5416924
+ 1310322 words of memory out of 5000000
+ 60513 multiletter control sequences out of 15000+600000
  645107 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,118p,730b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1680,8 +1899,8 @@ Here is how much of TeX's memory you used:
 crm1200.pk> <C:\Users\carlosmx\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecbx1440.pk> <C:\Users\carlosmx\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
 nappen/ec/dpi600\ecti1200.pk> <C:\Users\carlosmx\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\carlosmx\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\carlosmx\AppData\Loca
+ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\carlosmx\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\carlosmx\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\carlosmx\App
 Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/carl
 osmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
@@ -1697,12 +1916,14 @@ losmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
 r7.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmr8.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/carlosmx/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/carlosmx/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/carlosmx/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on calculo.pdf (61 pages, 483613 bytes).
+onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/carlosmx/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/carlosmx/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/c
+arlosmx/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on calculo.pdf (68 pages, 522975 bytes).
 PDF statistics:
- 1081 PDF objects out of 1200 (max. 8388607)
- 281 named destinations out of 1000 (max. 500000)
+ 1167 PDF objects out of 1200 (max. 8388607)
+ 292 named destinations out of 1000 (max. 500000)
  325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

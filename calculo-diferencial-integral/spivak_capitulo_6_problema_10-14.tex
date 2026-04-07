@@ -1,0 +1,72 @@
+\section*{Problemas 10-14}
+
+\textbf{Problema 10.} Demostrar que si $f$ es continua en $a$, entonces también lo es $|f|$.\\
+
+\textit{Demostración:}
+
+Dado que $f$ es continua en $a$, se tiene que $\lim_{x \to a} f(x) = f(a)$. Por la definición de límite y la continuidad de la función valor absoluto, se cumple que:
+\[
+\lim_{x \to a} |f(x)| = |\lim_{x \to a} f(x)| = |f(a)|.
+\]
+Por lo tanto, $|f|$ es continua en $a$.\\
+
+\textbf{Problema 11.} Demostrar el teorema 1(3) aplicando el teorema 2 y la continuidad de la función $f(x) = 1/x$.\\
+
+\textit{Demostración:}
+
+El teorema 1(3) establece que si $f$ es continua en $a$ y $f(a) \neq 0$, entonces $1/f$ es continua en $a$. Dado que $f$ es continua en $a$, se tiene que $\lim_{x \to a} f(x) = f(a)$. Como $f(a) \neq 0$, existe un entorno de $a$ en el cual $f(x) \neq 0$. Por lo tanto, $1/f(x)$ está bien definida en dicho entorno. Además, por las propiedades de los límites:
+\[
+\lim_{x \to a} \frac{1}{f(x)} = \frac{1}{\lim_{x \to a} f(x)} = \frac{1}{f(a)}.
+\]
+Esto muestra que $1/f$ es continua en $a$.\\
+
+\textbf{Problema 12.} (a) Demostrar que si $f$ es continua en $l$ y $\lim_{x \to \infty} g(x) = l$, entonces $\lim_{x \to \infty} f(g(x)) = f(l)$.\\
+
+\textit{Demostración:}
+
+Dado que $\lim_{x \to \infty} g(x) = l$, para todo $\epsilon > 0$ existe $M > 0$ tal que si $x > M$, entonces $|g(x) - l| < \delta$, donde $\delta$ es tal que $|f(g(x)) - f(l)| < \epsilon$ debido a la continuidad de $f$ en $l$. Por lo tanto, $\lim_{x \to \infty} f(g(x)) = f(l)$.\\
+
+(b) Demostrar que si no se supone la continuidad de $f$ en $l$, entonces no se cumple, por lo general, que $\lim_{x \to \infty} f(g(x)) = f(\lim_{x \to \infty} g(x))$.\\
+
+\textit{Demostración:}
+
+Consideremos $f(x) = \begin{cases} 1 & \text{si } x \neq 0, \\ 0 & \text{si } x = 0. \end{cases}$ y $g(x) = \frac{1}{x}$. Entonces $\lim_{x \to \infty} g(x) = 0$, pero $\lim_{x \to \infty} f(g(x)) = \lim_{x \to \infty} f\left(\frac{1}{x}\right) = 1 \neq f(0)$. Esto muestra que la continuidad de $f$ en $l$ es esencial.\\
+
+\textbf{Problema 13.} (a) Demostrar que si $f$ es continua en $[a, b]$, entonces existe una función $g$ que es continua en $\mathbb{R}$, y que satisface $g(x) = f(x)$ para todo $x \in [a, b]$.\\
+
+\textit{Demostración:}
+
+Sea $g(x)$ una extensión de $f(x)$ definida como:
+\[
+g(x) = \begin{cases}
+f(x) & \text{si } x \in [a, b], \\
+f(a) & \text{si } x < a, \\
+f(b) & \text{si } x > b.
+\end{cases}
+\]
+
+Dado que $f$ es continua en $[a, b]$, $g(x)$ es continua en $[a, b]$. Además, $g(x)$ es constante fuera de $[a, b]$, lo que asegura su continuidad en $(-\infty, a)$ y $(b, \infty)$. Por lo tanto, $g(x)$ es continua en $\mathbb{R}$.\\
+
+(b) Hágase ver con un ejemplo que esta afirmación es falsa si se sustituye $[a, b]$ por $(a, b)$.\\
+
+\textit{Ejemplo:}
+
+Sea $f(x) = \begin{cases} x & \text{si } x \in (0, 1), \\ 0 & \text{si } x \notin (0, 1). \end{cases}$
+
+La función $f(x)$ no es continua en $x = 0$ ni en $x = 1$, ya que no está definida en estos puntos. Por lo tanto, no es posible extender $f(x)$ a una función continua en $\mathbb{R}$.\\
+
+\textbf{Problema 14.} (a) Supóngase que $g$ y $h$ son continuas en $a$, y que $g(a) = h(a)$. Defínase $f(x)$ como $g(x)$ si $x \geq a$ y $h(x)$ si $x \leq a$. Demostrar que $f$ es continua en $a$.\\
+
+\textit{Demostración:}
+
+Dado que $g$ y $h$ son continuas en $a$, se tiene que $\lim_{x \to a^+} g(x) = g(a)$ y $\lim_{x \to a^-} h(x) = h(a)$. Como $g(a) = h(a)$, se tiene que:
+\[
+\lim_{x \to a^+} f(x) = \lim_{x \to a^+} g(x) = g(a), \quad \lim_{x \to a^-} f(x) = \lim_{x \to a^-} h(x) = h(a).
+\]
+Por lo tanto, $\lim_{x \to a} f(x) = f(a)$, lo que implica que $f$ es continua en $a$.\\
+
+(b) Supóngase que $g$ es continua en $[a, b]$, $h$ es continua en $[b, c]$, y $g(b) = h(b)$. Demostrar que $f$ es continua en $[a, c]$, donde $f(x) = \begin{cases} g(x) & \text{si } x \in [a, b], \\ h(x) & \text{si } x \in [b, c]. \end{cases}$\\
+
+\textit{Demostración:}
+
+Dado que $g$ es continua en $[a, b]$ y $h$ es continua en $[b, c]$, $f(x)$ es continua en $[a, b)$ y $(b, c]$. En $x = b$, se tiene que $\lim_{x \to b^-} f(x) = \lim_{x \to b^-} g(x) = g(b)$ y $\lim_{x \to b^+} f(x) = \lim_{x \to b^+} h(x) = h(b)$. Como $g(b) = h(b)$, se concluye que $\lim_{x \to b} f(x) = f(b)$. Por lo tanto, $f$ es continua en $[a, c]$.

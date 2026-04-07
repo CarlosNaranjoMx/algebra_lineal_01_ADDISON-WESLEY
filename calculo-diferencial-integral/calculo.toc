@@ -1,41 +1,41 @@
-\contentsline {section}{\numberline {1}Números reales}{2}{section.1}%
-\contentsline {section}{\numberline {2}Sucesiones infinitas}{2}{section.2}%
-\contentsline {section}{\numberline {3}Series infinitas}{2}{section.3}%
-\contentsline {section}{\numberline {4}Funciones reales de variable real}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Límites}{2}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Continuidad}{2}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Sucesiones de funciones}{2}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Derivadas de primer orden y órdenes superiores}{2}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Máximos y mínimos}{3}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Integrales definidas}{3}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Integrales impropias}{3}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Funciones de varias variables}{3}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Límites}{3}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Continuidad}{3}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Derivadas parciales}{3}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Derivadas totales}{3}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Máximos y mínimos (multiplicadores de Lagrange)}{4}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Integrales múltiples}{4}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Integrales iteradas}{4}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Fórmula de cambio de variable}{4}{subsection.5.8}%
-\contentsline {section}{\numberline {6}Problemas de Spivak}{4}{section.6}%
-\contentsline {section}{Problema 1 - Spivak: Demostraciones}{6}{section*.3}%
-\contentsline {section}{Problema 20 - Spivak: Demostración de acotación para suma y resta}{8}{section*.10}%
-\contentsline {section}{Problema 21 - Spivak: Demostración de acotación para $|xy - x_0y_0|$}{10}{section*.16}%
-\contentsline {section}{Problema 22 - Spivak: Demostración de acotación para $\left |\frac {1}{y} - \frac {1}{y_0}\right |$}{12}{section*.20}%
-\contentsline {section}{Problema 23 - Spivak: Demostración de acotación para $\left |\frac {x}{y} - \frac {x_0}{y_0}\right |$}{15}{section*.32}%
-\contentsline {section}{Problema 24 - Spivak: Asociatividad de Sumas Finitas}{20}{section*.43}%
-\contentsline {section}{Spivak Capítulo 2, Problema 4}{24}{section*.53}%
-\contentsline {paragraph}{Ejemplo 1 (Vandermonde).}{25}{section*.57}%
-\contentsline {paragraph}{Ejemplo 2 (Suma de cuadrados).}{25}{section*.58}%
-\contentsline {section}{Spivak Capítulo 3, Problema 10}{26}{section*.59}%
-\contentsline {section}{Spivak Capítulo 3, Problema 13}{28}{section*.60}%
-\contentsline {section}{Spivak Capítulo 3, Problema 14}{30}{section*.61}%
-\contentsline {section}{Spivak Capítulo 3, Problema 16}{31}{section*.62}%
-\contentsline {section}{Spivak Capítulo 3, Problema 17}{33}{section*.64}%
-\contentsline {section}{Spivak Capítulo 3, Problema 18}{35}{section*.66}%
-\contentsline {section}{Spivak Capítulo 3, Problema 19}{37}{section*.70}%
-\contentsline {section}{Spivak Capítulo 3, Problema 20}{39}{section*.71}%
-\contentsline {section}{Problema 6 - Sumas mediante telescopios (Spivak)}{41}{section*.72}%
-\contentsline {section}{Spivak Capítulo 4, Problema 5}{45}{section*.80}%
-\contentsline {section}{Problema 7 - Fórmula general para $\DOTSB \sum@ \slimits@ _{k=1}^n k^p$}{47}{section*.81}%
+\contentsline {section}{\numberline {1}Números reales}{3}{section.1}%
+\contentsline {section}{\numberline {2}Sucesiones infinitas}{3}{section.2}%
+\contentsline {section}{\numberline {3}Series infinitas}{3}{section.3}%
+\contentsline {section}{\numberline {4}Funciones reales de variable real}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Límites}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Continuidad}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Sucesiones de funciones}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Derivadas de primer orden y órdenes superiores}{3}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Máximos y mínimos}{4}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Integrales definidas}{4}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Integrales impropias}{4}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Funciones de varias variables}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Límites}{4}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Continuidad}{4}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Derivadas parciales}{4}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Derivadas totales}{4}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Máximos y mínimos (multiplicadores de Lagrange)}{5}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Integrales múltiples}{5}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Integrales iteradas}{5}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Fórmula de cambio de variable}{5}{subsection.5.8}%
+\contentsline {section}{\numberline {6}Problemas de Spivak}{5}{section.6}%
+\contentsline {section}{Problema 1 - Spivak: Demostraciones}{7}{section*.3}%
+\contentsline {section}{Problema 20 - Spivak: Demostración de acotación para suma y resta}{9}{section*.10}%
+\contentsline {section}{Problema 21 - Spivak: Demostración de acotación para $|xy - x_0y_0|$}{11}{section*.16}%
+\contentsline {section}{Problema 22 - Spivak: Demostración de acotación para $\left |\frac {1}{y} - \frac {1}{y_0}\right |$}{13}{section*.20}%
+\contentsline {section}{Problema 23 - Spivak: Demostración de acotación para $\left |\frac {x}{y} - \frac {x_0}{y_0}\right |$}{16}{section*.32}%
+\contentsline {section}{Problema 24 - Spivak: Asociatividad de Sumas Finitas}{21}{section*.43}%
+\contentsline {section}{Spivak Capítulo 2, Problema 4}{25}{section*.53}%
+\contentsline {paragraph}{Ejemplo 1 (Vandermonde).}{26}{section*.57}%
+\contentsline {paragraph}{Ejemplo 2 (Suma de cuadrados).}{26}{section*.58}%
+\contentsline {section}{Spivak Capítulo 3, Problema 10}{27}{section*.59}%
+\contentsline {section}{Spivak Capítulo 3, Problema 13}{29}{section*.60}%
+\contentsline {section}{Spivak Capítulo 3, Problema 14}{31}{section*.61}%
+\contentsline {section}{Spivak Capítulo 3, Problema 16}{32}{section*.62}%
+\contentsline {section}{Spivak Capítulo 3, Problema 17}{34}{section*.64}%
+\contentsline {section}{Spivak Capítulo 3, Problema 18}{36}{section*.66}%
+\contentsline {section}{Spivak Capítulo 3, Problema 19}{38}{section*.70}%
+\contentsline {section}{Spivak Capítulo 3, Problema 20}{40}{section*.71}%
+\contentsline {section}{Problema 6 - Sumas mediante telescopios (Spivak)}{42}{section*.72}%
+\contentsline {section}{Spivak Capítulo 4, Problema 5}{46}{section*.80}%
+\contentsline {section}{Problema 7 - Fórmula general para $\DOTSB \sum@ \slimits@ _{k=1}^n k^p$}{48}{section*.81}%

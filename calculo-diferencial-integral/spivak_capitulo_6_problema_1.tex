@@ -1,0 +1,26 @@
+\section*{Problema 1}
+¿Para cuáles de las siguientes funciones $f$ existe una función $F$ de dominio $\mathbb{R}$ tal que $F'(x) = f(x)$ para todo $x$ del dominio de $f$?\\
+
+\textbf{(i)} $f(x) = \frac{x^2 - 4}{x - 2}$\\
+
+La función $f(x)$ puede simplificarse como $f(x) = x + 2$ para $x \neq 2$. Sin embargo, $f(x)$ no está definida en $x = 2$. Para que exista una función $F$ tal que $F'(x) = f(x)$ en todo $\mathbb{R}$, $f(x)$ debe ser continua en todo su dominio. Dado que $f(x)$ no es continua en $x = 2$, no existe tal función $F$.\\
+
+\textbf{(ii)} $f(x) = \frac{|x|}{x}$\\
+
+La función $f(x)$ es la función signo, definida como:
+\[
+\text{sgn}(x) = \begin{cases}
+1 & \text{si } x > 0, \\
+-1 & \text{si } x < 0.
+\end{cases}
+\]
+
+En $x = 0$, $f(x)$ no está definida. Además, $f(x)$ tiene una discontinuidad en $x = 0$, ya que el límite por la izquierda es $-1$ y el límite por la derecha es $1$. Por lo tanto, no existe una función $F$ de dominio $\mathbb{R}$ tal que $F'(x) = f(x)$.\\
+
+\textbf{(iii)} $f(x) = \begin{cases} 0 & \text{si } x \text{ es irracional}, \\ 1 & \text{si } x \text{ es racional}. \end{cases}$\\
+
+La función $f(x)$ es la función indicadora de los números racionales. Esta función es altamente discontinua en todo su dominio, ya que los números racionales y los irracionales están densamente intercalados en $\mathbb{R}$. Por lo tanto, no existe una función $F$ de dominio $\mathbb{R}$ tal que $F'(x) = f(x)$.\\
+
+\textbf{(iv)} $f(x) = \frac{1}{q}, \text{ donde } x = \frac{p}{q} \text{ es un número racional en fracción irreducible.}$\\
+
+La función $f(x)$ está definida únicamente para números racionales y no está definida para los números irracionales. Además, $f(x)$ no es continua en ningún punto de su dominio debido a la densidad de los números racionales en $\mathbb{R}$. Por lo tanto, no existe una función $F$ de dominio $\mathbb{R}$ tal que $F'(x) = f(x)$.

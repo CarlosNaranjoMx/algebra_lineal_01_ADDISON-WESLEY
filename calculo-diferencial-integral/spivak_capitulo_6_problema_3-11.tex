@@ -1,0 +1,118 @@
+\section*{Problemas 3-11}
+
+\textbf{Problema 3.}
+Supóngase que $f$ es una función que satisface $|f(x)| \leq |x|$ para todo $x$. Demostrar que $f$ es continua en $0$.\\
+
+\textit{Demostración:}
+
+Dado que $|f(x)| \leq |x|$, se tiene que $-x \leq f(x) \leq x$. Cuando $x \to 0$, tanto $-x$ como $x$ tienden a $0$. Por el teorema del emparedado, se concluye que $f(x) \to 0$ cuando $x \to 0$. Por lo tanto, $f$ es continua en $0$.\\
+
+\textbf{Problema 4.}
+Dar un ejemplo de una función $f$ que no sea continua en ningún punto, pero tal que $|f|$ sea continua en todos los puntos.\\
+
+\textit{Solución:}
+
+Un ejemplo de tal función es $f(x) = (-1)^n$ si $x = n$ es un número entero, y $f(x) = 0$ si $x$ no es un número entero. La función $|f(x)|$ es igual a $1$ para $x$ entero y $0$ para $x$ no entero, lo que la hace continua en todos los puntos. Sin embargo, $f(x)$ no es continua en ningún punto debido a las discontinuidades en los enteros.\\
+
+\textbf{Problema 5.}
+Para todo número $a$, hallar la función que sea continua en $a$, pero no lo sea en ningún otro punto.\\
+
+\textit{Solución:}
+
+La función deseada es:
+\[
+    f(x) = \begin{cases}
+    1 & \text{si } x = a, \\
+    0 & \text{si } x \neq a.
+    \end{cases}
+\]
+Esta función es continua en $x = a$, ya que $f(a) = 1$ y no hay discontinuidad en ese punto. En cualquier otro punto $x \neq a$, la función no es continua porque $f(x)$ cambia bruscamente de $0$ a $1$.\\
+
+\textbf{Problema 6.}
+(a) Hallar una función $f$ que sea discontinua en $1, \frac{1}{2}, \frac{1}{3}, \dots$, pero continua en todos los demás puntos.\\
+
+\textit{Solución:}
+
+Una función que cumple esta propiedad es:
+\[
+    f(x) = \begin{cases}
+    \frac{1}{q} & \text{si } x = \frac{p}{q}, \text{ con } p, q \text{ enteros primos entre sí}, \\
+    0 & \text{si } x \text{ es irracional}.
+    \end{cases}
+\]
+Esta función es discontinua en los puntos racionales $1, \frac{1}{2}, \frac{1}{3}, \dots$, pero es continua en todos los demás puntos (los irracionales).\\
+
+(b) Hallar una función $f$ que sea discontinua en $1, \frac{1}{2}, \frac{1}{3}, \dots$, y en $0$, pero que sea continua en todos los demás puntos.\\
+
+\textit{Solución:}
+
+Una función que cumple esta propiedad es:
+\[
+    f(x) = \begin{cases}
+    \frac{1}{q} & \text{si } x = \frac{p}{q}, \text{ con } p, q \text{ enteros primos entre sí}, \\
+    1 & \text{si } x = 0, \\
+    0 & \text{si } x \text{ es irracional}.
+    \end{cases}
+\]
+Esta función es discontinua en los puntos racionales $1, \frac{1}{2}, \frac{1}{3}, \dots$, y en $x = 0$, pero es continua en todos los demás puntos (los irracionales).\\
+
+\textbf{Problema 7.}
+Supóngase que $f$ satisface $f(x + y) = f(x) + f(y)$, y que $f$ es continua en $0$. Demostrar que $f$ es continua en $a$ para todo $a$.\\
+
+\textit{Demostración:}
+
+Dado que $f$ es continua en $0$, se tiene que $\lim_{h \to 0} f(h) = f(0)$. Para demostrar que $f$ es continua en $a$, consideremos el límite:
+\[
+\lim_{h \to 0} f(a + h) = \lim_{h \to 0} [f(a) + f(h)] = f(a) + \lim_{h \to 0} f(h) = f(a) + f(0) = f(a).
+\]
+Por lo tanto, $f$ es continua en $a$ para todo $a$.\\
+
+\textbf{Problema 8.}
+Supóngase que $f$ es continua en $a$ y $f(a) = 0$. Demostrar que si $f + \alpha$ es distinta de $0$ en algún intervalo abierto que contiene $a$, entonces $f + \alpha$ es continua en $a$.\\
+
+\textit{Demostración:}
+
+Dado que $f$ es continua en $a$ y $f(a) = 0$, se tiene que $\lim_{x \to a} f(x) = 0$. Sea $g(x) = f(x) + \alpha$, donde $\alpha \neq 0$. Entonces:
+\[
+\lim_{x \to a} g(x) = \lim_{x \to a} [f(x) + \alpha] = \lim_{x \to a} f(x) + \alpha = 0 + \alpha = \alpha.
+\]
+Por lo tanto, $g(x)$ es continua en $a$.\\
+
+\textbf{Problema 9.}
+(a) Supóngase que $f$ no es continua en $a$. Demostrar que para algún $\epsilon > 0$, existen números $x$ tan próximos como se quiera de $a$ con $|f(x) - f(a)| > \epsilon$.\\
+
+\textit{Demostración:}
+
+Si $f$ no es continua en $a$, entonces por definición de continuidad, no se cumple que $\lim_{x \to a} f(x) = f(a)$. Esto implica que existe un $\epsilon > 0$ tal que para todo $\delta > 0$, existe un $x$ con $0 < |x - a| < \delta$ y $|f(x) - f(a)| > \epsilon$. Por lo tanto, siempre podemos encontrar números $x$ arbitrariamente cercanos a $a$ que satisfacen $|f(x) - f(a)| > \epsilon$.\\
+
+(b) Dedúzcase que para algún $\epsilon > 0$, o bien existen números $x$ tan próximos como se quiera de $a$ con $f(x) < f(a) - \epsilon$, o bien existen números $x$ tan próximos como se quiera de $a$ con $f(x) > f(a) + \epsilon$.\\
+
+\textit{Demostración:}
+
+Si $|f(x) - f(a)| > \epsilon$, entonces $f(x)$ debe estar fuera del intervalo $[f(a) - \epsilon, f(a) + \epsilon]$. Esto implica que $f(x) < f(a) - \epsilon$ o $f(x) > f(a) + \epsilon$. Por lo tanto, para algún $\epsilon > 0$, existen números $x$ arbitrariamente cercanos a $a$ que satisfacen una de estas dos desigualdades.\\
+
+\textbf{Problema 10.}
+Demostrar que si $f$ es continua en $a$, entonces también lo es $|f|$.\\
+
+\textit{Demostración:}
+
+Dado que $f$ es continua en $a$, se tiene que $\lim_{x \to a} f(x) = f(a)$. Por la definición de límite y la continuidad de la función valor absoluto, se cumple que:
+\[
+\lim_{x \to a} |f(x)| = |\lim_{x \to a} f(x)| = |f(a)|.
+\]
+Por lo tanto, $|f|$ es continua en $a$.\\
+
+\textbf{Problema 11.}
+Demostrar que toda función continua $f$ puede escribirse en la forma $f = E + O$, donde $E$ es par y continua y $O$ es impar y continua.\\
+
+\textit{Demostración:}
+
+Definimos las funciones $E$ y $O$ como:
+\[
+E(x) = \frac{f(x) + f(-x)}{2}, \quad O(x) = \frac{f(x) - f(-x)}{2}.
+\]
+Es claro que $E$ es par, ya que $E(-x) = E(x)$, y que $O$ es impar, ya que $O(-x) = -O(x)$. Además, dado que $f$ es continua, las funciones $E$ y $O$ son combinaciones lineales de funciones continuas, por lo que también son continuas. Finalmente, sumando $E$ y $O$:
+\[
+E(x) + O(x) = \frac{f(x) + f(-x)}{2} + \frac{f(x) - f(-x)}{2} = f(x).
+\]
+Por lo tanto, $f = E + O$, donde $E$ es par y continua, y $O$ es impar y continua.
