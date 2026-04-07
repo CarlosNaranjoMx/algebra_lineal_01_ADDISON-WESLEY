@@ -1,0 +1,60 @@
+\section*{Capítulo I, Problema VI}
+
+\textbf{Problema:}
+
+6. Encuentra la norma de las funciones $\sin(3x)$ y $\cos(x)$, con respecto al producto escalar en el intervalo $[-\pi, \pi]$ dado por la integral.
+
+\textbf{Solución:}
+
+La norma de una función $f(x)$ con respecto a un producto escalar definido por la integral en el intervalo $[-\pi, \pi]$ se calcula como:
+\[
+    \|f\| = \sqrt{\langle f, f \rangle}, \quad \text{donde } \langle f, f \rangle = \int_{-\pi}^{\pi} f(x)^2 \, dx.
+\]
+
+\begin{itemize}
+    \item Para $f(x) = \sin(3x)$:
+    \begin{align*}
+        \langle \sin(3x), \sin(3x) \rangle &= \int_{-\pi}^{\pi} \sin^2(3x) \, dx. \\
+        \text{Usamos la identidad trigonométrica } \sin^2(\theta) = \frac{1 - \cos(2\theta)}{2}: \\
+        \langle \sin(3x), \sin(3x) \rangle &= \int_{-\pi}^{\pi} \frac{1 - \cos(6x)}{2} \, dx \\
+        &= \frac{1}{2} \int_{-\pi}^{\pi} 1 \, dx - \frac{1}{2} \int_{-\pi}^{\pi} \cos(6x) \, dx.
+    \end{align*}
+
+    La primera integral es:
+    \[
+        \frac{1}{2} \int_{-\pi}^{\pi} 1 \, dx = \frac{1}{2} [x]_{-\pi}^{\pi} = \frac{1}{2} (\pi - (-\pi)) = \pi.
+    \]
+
+    La segunda integral es cero porque $\cos(6x)$ es una función oscilatoria con periodo $\frac{\pi}{3}$ y su integral en un intervalo completo es cero. Por lo tanto:
+    \[
+        \langle \sin(3x), \sin(3x) \rangle = \pi.
+    \]
+
+    La norma de $\sin(3x)$ es:
+    \[
+        \|\sin(3x)\| = \sqrt{\pi}.
+    \]
+
+    \item Para $f(x) = \cos(x)$:
+    \begin{align*}
+        \langle \cos(x), \cos(x) \rangle &= \int_{-\pi}^{\pi} \cos^2(x) \, dx. \\
+        \text{Usamos la identidad trigonométrica } \cos^2(\theta) = \frac{1 + \cos(2\theta)}{2}: \\
+        \langle \cos(x), \cos(x) \rangle &= \int_{-\pi}^{\pi} \frac{1 + \cos(2x)}{2} \, dx \\
+        &= \frac{1}{2} \int_{-\pi}^{\pi} 1 \, dx + \frac{1}{2} \int_{-\pi}^{\pi} \cos(2x) \, dx.
+    \end{align*}
+
+    La primera integral es:
+    \[
+        \frac{1}{2} \int_{-\pi}^{\pi} 1 \, dx = \frac{1}{2} [x]_{-\pi}^{\pi} = \frac{1}{2} (\pi - (-\pi)) = \pi.
+    \]
+
+    La segunda integral es cero porque $\cos(2x)$ es una función oscilatoria con periodo $\pi$ y su integral en un intervalo completo es cero. Por lo tanto:
+    \[
+        \langle \cos(x), \cos(x) \rangle = \pi.
+    \]
+
+    La norma de $\cos(x)$ es:
+    \[
+        \|\cos(x)\| = \sqrt{\pi}.
+    \]
+\end{itemize}

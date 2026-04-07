@@ -1,0 +1,30 @@
+\section*{Capítulo I, Problema XVI}
+
+\textbf{Problema:}
+
+16. Sean $A, B$ vectores no nulos, mutuamente perpendiculares. Demuestra que para cualquier número $c$ se cumple que $\|A + cB\| \geq \|A\|$.
+
+\textbf{Solución:}
+
+Dado que $A$ y $B$ son mutuamente perpendiculares, se cumple que $A \cdot B = 0$. Por lo tanto, podemos calcular la norma de $A + cB$ como sigue:
+\begin{align*}
+    \|A + cB\|^2 &= (A + cB) \cdot (A + cB) \\
+    &= A \cdot A + 2c(A \cdot B) + c^2(B \cdot B).
+\end{align*}
+
+Dado que $A \cdot B = 0$, el término $2c(A \cdot B)$ se anula. Por lo tanto:
+\begin{align*}
+    \|A + cB\|^2 &= \|A\|^2 + c^2\|B\|^2.
+\end{align*}
+
+Como $c^2\|B\|^2 \geq 0$, se tiene que:
+\begin{align*}
+    \|A + cB\|^2 \geq \|A\|^2.
+\end{align*}
+
+Tomando la raíz cuadrada en ambos lados, obtenemos:
+\begin{align*}
+    \|A + cB\| \geq \|A\|.
+\end{align*}
+
+Por lo tanto, se cumple la desigualdad $\|A + cB\| \geq \|A\|$ para cualquier número $c$.

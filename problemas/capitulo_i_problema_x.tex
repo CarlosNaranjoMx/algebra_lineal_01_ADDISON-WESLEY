@@ -1,0 +1,38 @@
+\section*{Capítulo I, Problema X}
+
+\textbf{Problema:}
+
+10. Sean $A, B$ dos vectores no nulos en el espacio $n$-dimensional. Sea $\theta$ el ángulo entre ellos. Si $\cos \theta = 1$, demuestra que $A$ y $B$ tienen la misma dirección. Si $\cos \theta = -1$, demuestra que $A$ y $B$ tienen direcciones opuestas. [Pista: Si $c$ es la componente de $A$ a lo largo de $B$, demuestra que $(A - cB)^2 = 0$].
+
+\textbf{Solución:}
+
+\begin{itemize}
+    \item \textbf{Caso 1: $\cos \theta = 1$}
+
+    Si $\cos \theta = 1$, entonces el ángulo entre $A$ y $B$ es $0$ grados. Esto implica que $A$ y $B$ están alineados en la misma dirección. Matemáticamente, esto significa que existe un escalar positivo $k > 0$ tal que $A = kB$.
+
+    \item \textbf{Caso 2: $\cos \theta = -1$}
+
+    Si $\cos \theta = -1$, entonces el ángulo entre $A$ y $B$ es $180$ grados. Esto implica que $A$ y $B$ están alineados en direcciones opuestas. Matemáticamente, esto significa que existe un escalar negativo $k < 0$ tal que $A = kB$.
+
+    \item \textbf{Demostración de la pista:}
+
+    Si $c$ es la componente de $A$ a lo largo de $B$, entonces $c = \frac{A \cdot B}{\|B\|^2}$. Por lo tanto:
+    \[
+        A - cB = A - \frac{A \cdot B}{\|B\|^2}B.
+    \]
+
+    Calculamos el cuadrado de la norma de $A - cB$:
+    \begin{align*}
+        \|A - cB\|^2 &= (A - cB) \cdot (A - cB) \\
+        &= A \cdot A - 2c(A \cdot B) + c^2(B \cdot B).
+    \end{align*}
+
+    Sustituyendo $c = \frac{A \cdot B}{\|B\|^2}$, obtenemos:
+    \begin{align*}
+        \|A - cB\|^2 &= \|A\|^2 - 2\frac{(A \cdot B)^2}{\|B\|^2} + \frac{(A \cdot B)^2}{\|B\|^2} \\
+        &= \|A\|^2 - \frac{(A \cdot B)^2}{\|B\|^2}.
+    \end{align*}
+
+    Si $\cos \theta = \pm 1$, entonces $A \cdot B = \pm \|A\|\|B\|$, lo que implica que $\|A - cB\|^2 = 0$. Por lo tanto, $A - cB = 0$, lo que demuestra que $A$ y $B$ están alineados.
+\end{itemize}

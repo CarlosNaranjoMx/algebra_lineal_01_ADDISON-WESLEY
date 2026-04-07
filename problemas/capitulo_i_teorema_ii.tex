@@ -1,0 +1,39 @@
+\section*{Capítulo I, Teorema II}
+
+\textbf{Teorema:}
+
+Sean $A, B$ dos vectores en $\mathbb{R}^n$. Entonces:
+\[
+    |A \cdot B| \leq \|A\| \|B\|.
+\]
+
+\textbf{Demostración:}
+
+Si $B = 0$, entonces ambos lados de la desigualdad son iguales a $0$, y nuestra afirmación es evidente.
+
+Supongamos que $B \neq 0$. Sea $E$ el vector unitario en la dirección de $B$, de modo que:
+\[
+    E = \frac{B}{\|B\|}.
+\]
+
+Entonces, podemos escribir el producto escalar $A \cdot B$ como:
+\[
+    A \cdot B = A \cdot (\|B\|E) = \|B\| (A \cdot E).
+\]
+
+Por la definición del producto escalar, sabemos que:
+\[
+    |A \cdot E| \leq \|A\| \|E\|.
+\]
+
+Dado que $E$ es un vector unitario, $\|E\| = 1$. Por lo tanto:
+\[
+    |A \cdot E| \leq \|A\|.
+\]
+
+Sustituyendo esta desigualdad en la expresión para $A \cdot B$, obtenemos:
+\[
+    |A \cdot B| = \|B\| |A \cdot E| \leq \|B\| \|A\|.
+\]
+
+Esto completa la demostración del teorema. 

@@ -1,0 +1,34 @@
+\section*{Capítulo I, Problema VII}
+
+\textbf{Problema:}
+
+7. Considera funciones continuas en el intervalo $[-\pi, \pi]$. Define un producto escalar similar al anterior para este intervalo. Demuestra que las funciones $\sin(nx)$ y $\cos(mx)$ son ortogonales para este producto escalar ($m, n$ siendo enteros).
+
+\textbf{Solución:}
+
+El producto escalar para funciones continuas en el intervalo $[-\pi, \pi]$ está definido como:
+\[
+    \langle f, g \rangle = \int_{-\pi}^{\pi} f(x)g(x) \, dx.
+\]
+
+Para demostrar que $\sin(nx)$ y $\cos(mx)$ son ortogonales, calculamos su producto escalar:
+\[
+    \langle \sin(nx), \cos(mx) \rangle = \int_{-\pi}^{\pi} \sin(nx) \cos(mx) \, dx.
+\]
+
+Usamos la identidad trigonométrica:
+\[
+    \sin(nx)\cos(mx) = \frac{1}{2}\left[\sin((n+m)x) + \sin((n-m)x)\right].
+\]
+
+Sustituyendo en el producto escalar:
+\[
+    \langle \sin(nx), \cos(mx) \rangle = \frac{1}{2} \int_{-\pi}^{\pi} \sin((n+m)x) \, dx + \frac{1}{2} \int_{-\pi}^{\pi} \sin((n-m)x) \, dx.
+\]
+
+Sabemos que la integral de $\sin(kx)$ sobre un intervalo simétrico $[-a, a]$ es cero para cualquier entero $k \neq 0$. Por lo tanto:
+\[
+    \langle \sin(nx), \cos(mx) \rangle = 0.
+\]
+
+Esto demuestra que $\sin(nx)$ y $\cos(mx)$ son ortogonales bajo el producto escalar definido en el intervalo $[-\pi, \pi]$. 

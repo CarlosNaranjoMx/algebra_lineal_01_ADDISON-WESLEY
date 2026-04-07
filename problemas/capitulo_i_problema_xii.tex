@@ -1,0 +1,53 @@
+\section*{Capítulo I, Problema XII}
+
+\textbf{Problema:}
+
+12. Para cualesquiera vectores $A, B$ en el espacio $n$-dimensional, demuestra las siguientes relaciones:
+\begin{itemize}
+    \item (a) $\|A + B\|^2 + \|A - B\|^2 = 2\|A\|^2 + 2\|B\|^2$.
+    \item (b) $\|A + B\|^2 = \|A\|^2 + \|B\|^2 + 2A \cdot B$.
+    \item (c) $\|A + B\|^2 - \|A - B\|^2 = 4A \cdot B$.
+\end{itemize}
+
+Interpreta (a) como una "ley del paralelogramo".
+
+\textbf{Solución:}
+
+\begin{itemize}
+    \item \textbf{(a) Ley del paralelogramo:}
+
+    Por definición de norma, tenemos:
+    \begin{align*}
+        \|A + B\|^2 &= (A + B) \cdot (A + B) = \|A\|^2 + \|B\|^2 + 2(A \cdot B), \\
+        \|A - B\|^2 &= (A - B) \cdot (A - B) = \|A\|^2 + \|B\|^2 - 2(A \cdot B).
+    \end{align*}
+
+    Sumando estas dos ecuaciones:
+    \begin{align*}
+        \|A + B\|^2 + \|A - B\|^2 &= \left(\|A\|^2 + \|B\|^2 + 2(A \cdot B)\right) + \left(\|A\|^2 + \|B\|^2 - 2(A \cdot B)\right) \\
+        &= 2\|A\|^2 + 2\|B\|^2.
+    \end{align*}
+
+    Esto demuestra la relación (a).
+
+    \item \textbf{(b):}
+
+    Por definición de norma:
+    \begin{align*}
+        \|A + B\|^2 &= (A + B) \cdot (A + B) \\
+        &= A \cdot A + 2(A \cdot B) + B \cdot B \\
+        &= \|A\|^2 + \|B\|^2 + 2(A \cdot B).
+    \end{align*}
+
+    Esto demuestra la relación (b).
+
+    \item \textbf{(c):}
+
+    Restando las ecuaciones de $\|A + B\|^2$ y $\|A - B\|^2$:
+    \begin{align*}
+        \|A + B\|^2 - \|A - B\|^2 &= \left(\|A\|^2 + \|B\|^2 + 2(A \cdot B)\right) - \left(\|A\|^2 + \|B\|^2 - 2(A \cdot B)\right) \\
+        &= 4(A \cdot B).
+    \end{align*}
+
+    Esto demuestra la relación (c).
+\end{itemize}
